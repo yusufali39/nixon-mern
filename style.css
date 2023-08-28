@@ -1,3 +1,6 @@
+/* Google Font 'Poppins , Robato' */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
     padding: 0%;
     margin: 0%;
@@ -125,7 +128,8 @@ nav span:hover{
     font-size: 18px;
     color: rgb(97, 100, 103);
 }
-.content button {
+.content .button {
+    text-decoration: none;
     font-size: 18px;
     font-weight: 700;
     padding: 10px 10px;
@@ -138,7 +142,7 @@ nav span:hover{
     color: #0b2d3e;
 }
 
-.content button:hover {
+.content .button:hover {
     background: #0b2d3e;
     color: #fff;
 }
@@ -146,7 +150,7 @@ nav span:hover{
 
 section .overview{
         width: 80%;
-        height: 150vh;
+        height: 100vh;
         overflow: hidden;
         margin: auto;
 }
@@ -157,7 +161,75 @@ section .overview h1{
     border: solid 2px;
     border-radius: 5px;
 }
+footer {
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    padding: flex;
+    /* border: 1px solid #000; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
+footer h6 {
+    font-size: 15px;
+    color: #000;
+}
+
+footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer .social a {
+    color: rgb(49, 49, 49);
+    margin: 0px 5px;
+    transition: .3s linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .social a:hover {
+    color: #33332D;
+}
+
+footer .social a .bi {
+    padding: 7px 10px;
+    background: rgb(184, 184, 184, .5);
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+footer h4 {
+    margin-top: 5px;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+footer ul li {
+    margin-right: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(130, 130, 130);
+    transition: .3s linear;
+}
+
+footer ul li a:hover {
+    color: #000;
+}
 /* media queries */
 
 @media screen and (max-width:1180px) {
@@ -170,6 +242,9 @@ section .overview h1{
     .content h1{
         font-size: 54px;
         color: 33332D;
+    }
+    section .overview{
+        height: 100vh;
     }
 }
 @media screen and (max-width:1024px) {
@@ -186,7 +261,9 @@ section .overview h1{
         font-size: 54px;
         color: 33332D;
     }
-
+    section .overview{
+        height: 100vh;
+    }
 }
 
 @media screen and (max-width:840px) {
@@ -204,6 +281,9 @@ section .overview h1{
         width: 150%;
         font-size: 50px;
         color: 33332D;
+    }
+    section .overview{
+        height: 150vh;
     }
 }
 
@@ -235,6 +315,9 @@ section .overview h1{
     .content button{
         margin: auto;
         float: right;
+    }
+    section .overview{
+        height: 150vh;
     }
     section .overview h1{
         font-size: 23px;
@@ -271,6 +354,9 @@ section .overview h1{
     }
     .content button{
         float: left;
+    }
+    section .overview{
+        height: 150vh;
     }
     section .overview h1{
         font-size: 23px;
@@ -312,6 +398,9 @@ header .header_bx nav .menu_hum ul li a{
     color: #fff;
     font-size: 18px;
 }
+section .overview{
+    height: 180vh;
+}
 }
 
 @media screen and (max-width:540px) {
@@ -342,6 +431,9 @@ header .header_bx nav .menu_hum ul li a{
     }
     .content button{
         float: right;
+    }
+    section .overview{
+        height: 250vh;
     }
     section .overview h1{
         font-size: 23px;
