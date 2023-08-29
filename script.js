@@ -3,7 +3,7 @@ let menu_btn = document.getElementById('menu_btn');
 let content = document.getElementsByClassName('content')[0];
 menu_btn.addEventListener('click', () => {
     menu.classList.toggle('ul_active');
-    menu_btn.classList.toggle('bi-x-diamond-fill');
+    menu_btn.classList.toggle('bi-x-lg');
 
     let h1Element = content.querySelector('h1');
     if (h1Element.style.opacity === '0.1') 

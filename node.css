@@ -47,3 +47,13 @@ header{
     color: #000000;
     font-size: 25px;
 }
+section .overview{
+    width: 80%;
+    height: 100vh;
+    overflow: hidden;
+    margin: auto;
+}
+section .overview #note{
+    font-weight: 600;
+    color: #bdc1c2;
+}
