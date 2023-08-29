@@ -149,10 +149,10 @@ nav span:hover{
 
 
 section .overview{
-        width: 80%;
-        height: 100vh;
-        overflow: hidden;
-        margin: auto;
+    height: 100vh;
+    overflow: hidden;
+    margin: auto;
+    width: 80%;
 }
 section .overview h1{
     padding-left: 15px;

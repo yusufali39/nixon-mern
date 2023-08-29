@@ -25,6 +25,7 @@ header{
     margin-top: 20px;
 }
 .header_bx .logo{
+    text-decoration: none;
     margin-left: 25px;
     color: #000000;
     font-size: 25px;
@@ -62,9 +63,13 @@ header .header_bx .forward{
     font-size: 25px;
     float: right;
 }
+.overview #link{
+    text-decoration: none;
+    color: #0a75f0;
+}
 section .overview{
     width: 80%;
-    height: 87vh;
+    height: 100vh;
     overflow: hidden;
     margin: auto;
 }
@@ -76,6 +81,22 @@ section .overview #note{
     color: #000000;
     font-size: 25px;
     float: right;
+}
+.code-container {
+    background-color: #1e2127;
+    border: 1px solid #1e2127;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.code {
+    overflow-wrap: break-word;
+    font-family: monospace;
+    white-space: pre;
 }
 /* media query wala section aagya guyz :) */
 
@@ -92,6 +113,9 @@ section .overview #note{
 @media screen and (max-width:580px) {
     section .overview{
         height: 150vh;
+    }
+    .code-container .code {
+        white-space: normal;
     }
 }
 @media screen and (max-width:440px) {
