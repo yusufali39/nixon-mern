@@ -69,7 +69,7 @@ header .header_bx .forward{
 }
 section .overview{
     width: 80%;
-    height: 100vh;
+    height: 120vh;
     overflow: hidden;
     margin: auto;
 }
@@ -102,17 +102,23 @@ section .overview #note{
 
 @media screen and (max-width:1180px) {
     section .overview{
-        height: 110vh;
+        height: 120vh;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    section .overview{
+        height: 150vh;
     }
 }
 @media screen and (max-width:780px) {
     section .overview{
-        height: 130vh;
+        height: 180vh;
     }
 }
 @media screen and (max-width:580px) {
     section .overview{
-        height: 150vh;
+        height: 180vh;
     }
     .code-container .code {
         white-space: normal;
@@ -120,7 +126,7 @@ section .overview #note{
 }
 @media screen and (max-width:440px) {
     section .overview{
-        height: 170vh;
+        height: 195vh;
     }
 }
 @media screen and (max-width:375px) {
