@@ -40,4 +40,4 @@ setInterval(function(){
   if(textCount > texts.length-1) {
     textCount = 0;
   }
-},100)
+},80)
