@@ -41,3 +41,19 @@ setInterval(function(){
     textCount = 0;
   }
 },80)
+window.onload = function(){
+  var body = document.getElementById("body");
+  var button = document.getElementById("button");
+
+  button.onclick = function (){
+      if(body.className == "white"){
+          body.className = "black";
+          button.className = "black";
+          button.classList.toggle('bi-moon-stars');
+      }else{
+          body.className = "white";
+          button.className = "white";
+          button.classList.toggle('bi-sun');
+      }
+  };
+  };

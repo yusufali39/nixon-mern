@@ -18,7 +18,6 @@ header {
     position: relative;
     width: 100wh;
     height: 100%;
-    /* border: 1px solid #000; */
     overflow: hidden;
     margin-top: 20px;
 }
@@ -27,7 +26,6 @@ header .header_bx {
     position: relative;
     width: 80%;
     height: 100%;
-    /* border: 1px solid #000; */
     transition: .3s linear;
     margin: auto;
 }
@@ -39,10 +37,16 @@ nav{
     align-items: center;
 }
 nav .logo{
-    color: #000000;
+    color: var(--logo-color);
     font-size: 25px;
     border: solid 2px;
     border-radius: 5px;
+}
+body.black nav .logo:hover,
+body.black nav span:hover {
+    color: var(--logo-color);
+    background-color: var(--logo-bg-color);
+    cursor: default;
 }
 nav .logo:hover{
     color: #fff;
@@ -75,7 +79,7 @@ nav span:hover{
 .menu_hum ul li a{
     font-weight: 700;
     text-decoration: none;
-    color: #33332D;
+    color: var(--text-color);
     font-size: 20px;
 }
 .menu_hum ul li a:hover{
@@ -133,17 +137,17 @@ nav span:hover{
     font-size: 18px;
     font-weight: 700;
     padding: 10px 10px;
-    border: 2px solid #0b2d3e;
+    border: 2px solid rgb(97, 100, 103);
     margin-top: 15px;
     border-radius: 5px;
     cursor: pointer;
     transition: .3s linear;
     background: transparent;
-    color: #0b2d3e;
+    color: rgb(97, 100, 103);
 }
 
 .content .button:hover {
-    background: #0b2d3e;
+    background: rgb(97, 100, 103);
     color: #fff;
 }
 
@@ -154,12 +158,33 @@ section .overview{
     margin: auto;
     width: 80%;
 }
+section p{
+    color: #424245;
+}
 section .overview h1{
     padding-left: 15px;
-    color: #000000;
+    color: var(--text-color);
     font-size: 25px;
     border: solid 2px;
     border-radius: 5px;
+}
+
+.black{
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+
+}
+.white{
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
 }
 .footer-image{
         display: none;
@@ -190,16 +215,12 @@ footer .social {
 }
 
 footer .social a {
-    color: rgb(49, 49, 49);
+    color: rgb(0, 0, 0);
     margin: 0px 5px;
     transition: .3s linear;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-footer .social a:hover {
-    color: #33332D;
 }
 
 footer .social a .bi {
@@ -232,7 +253,9 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    color: #000;
+    border-radius: 2px;
+    background: rgb(97, 100, 103);
+    color: #fff;
 }
 /* media queries */
 
