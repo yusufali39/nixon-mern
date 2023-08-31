@@ -394,6 +394,7 @@ footer ul li a:hover {
 
 @media screen and (max-width:700px) {
 header .header_bx nav .menu_hum #menu_btn {
+    color: var(--logo-color);
     display: flex;
     cursor: pointer;
     font-size: 30px;
@@ -409,15 +410,6 @@ header .header_bx nav .menu_hum ul {
     z-index: 9999999999999;
     transition: 0.5s linear;
 }
-.moonstar{
-    color: #fff;
-    background-color: var(--text-color);
-}
-body.black .menu_hum .moonstar{
-    color: var(--logo-color);
-    background-color: var(--logo-bg-color);
-}
-
 
 header .header_bx nav .menu_hum ul li a:hover{
     padding: 0px 2px 0px 2px;
