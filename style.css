@@ -97,7 +97,7 @@ nav span:hover{
 }
 .menu_hum #menu_btn {
     font-size: 20px;
-    color: #000000;
+    color: var(--logo-color);
     display: none;
     z-index: 9999999999999999999999999999999999;
 }
@@ -158,9 +158,6 @@ section .overview{
     margin: auto;
     width: 80%;
 }
-section p{
-    color: #424245;
-}
 section .overview h1{
     padding-left: 15px;
     color: var(--text-color);
@@ -186,6 +183,10 @@ section .overview h1{
     color: white;
     background-color: black;
 }
+body.black #menu_btn{
+    color: #fff;
+}
+
 .footer-image{
         display: none;
         z-index: 9999999999999999999999999999999999;
@@ -257,6 +258,7 @@ footer ul li a:hover {
     background: rgb(97, 100, 103);
     color: #fff;
 }
+
 /* media queries */
 
 @media screen and (max-width:1180px) {
@@ -271,7 +273,7 @@ footer ul li a:hover {
         color: 33332D;
     }
     section .overview{
-        height: 100vh;
+        height: 120vh;
     }
 }
 @media screen and (max-width:1024px) {
@@ -286,7 +288,7 @@ footer ul li a:hover {
         color: 33332D;
     }
     section .overview{
-        height: 100vh;
+        height: 135vh;
     }
 }
 
@@ -307,7 +309,7 @@ footer ul li a:hover {
         color: 33332D;
     }
     section .overview{
-        height: 150vh;
+        height: 160vh;
     }
 }
 
@@ -341,7 +343,7 @@ footer ul li a:hover {
         float: right;
     }
     section .overview{
-        height: 150vh;
+        height: 160vh;
     }
     section .overview h1{
         font-size: 23px;
@@ -380,7 +382,7 @@ footer ul li a:hover {
         float: left;
     }
     section .overview{
-        height: 150vh;
+        height: 170vh;
     }
     section .overview h1{
         font-size: 23px;
@@ -407,6 +409,16 @@ header .header_bx nav .menu_hum ul {
     z-index: 9999999999999;
     transition: 0.5s linear;
 }
+.moonstar{
+    color: #fff;
+    background-color: var(--text-color);
+}
+body.black .menu_hum .moonstar{
+    color: var(--logo-color);
+    background-color: var(--logo-bg-color);
+}
+
+
 header .header_bx nav .menu_hum ul li a:hover{
     padding: 0px 2px 0px 2px;
     color: #33332D;
@@ -424,7 +436,7 @@ header .header_bx nav .menu_hum ul li a{
     font-size: 18px;
 }
 section .overview{
-    height: 180vh;
+    height: 185vh;
 }
 }
 
@@ -556,7 +568,7 @@ section .overview{
         float: left;
     }
     section .overview{
-        height: 280vh;
+        height: 300vh;
 
     }
     section .overview h1{
@@ -597,7 +609,7 @@ section .overview{
         float: left;
     }
     section .overview{
-        height: 300vh;
+        height: 315vh;
 
     }
     section .overview h1{
