@@ -70,12 +70,25 @@ section .overview{
 }
 section .overview #note{
     font-weight: 600;
-    color: #bdc1c2;
+    color: var(--text-color);
 }
 #arrow-right{
     color: #000000;
     font-size: 25px;
     float: right;
+}
+body.reading-mode {
+    background-color: #fdc28b;
+}
+body.dark-mode{
+    background-color: #000000;
+    color: #ffffff;
+}
+.eye-icon {
+    font-size: 24px; 
+    color: #000000; 
+    padding-top: 5px;
+    padding-left: 20px;
 }
 /* media query wala section aagya guyz :) */
 
