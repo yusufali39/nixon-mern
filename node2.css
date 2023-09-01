@@ -69,7 +69,7 @@ header .header_bx .forward{
 }
 section .overview{
     width: 80%;
-    height: 120vh;
+    height: 130vh;
     overflow: hidden;
     margin: auto;
 }
@@ -81,6 +81,20 @@ section .overview #note{
     color: #000000;
     font-size: 25px;
     float: right;
+}
+body.reading-mode {
+    background-color: #fdc28b;
+}
+body.dark-mode{
+    background-color: #000000;
+    color: #ffffff;
+}
+.eye-icon {
+    cursor: pointer;
+    font-size: 24px; 
+    color: #000000; 
+    padding-top: 5px;
+    padding-left: 20px;
 }
 .code-container {
     background-color: #1e2127;
@@ -102,7 +116,7 @@ section .overview #note{
 
 @media screen and (max-width:1180px) {
     section .overview{
-        height: 120vh;
+        height: 150vh;
     }
 }
 
