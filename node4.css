@@ -1,0 +1,208 @@
+/* Google Font 'Poppins , Robato' */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.header_bx{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    margin-top: 20px;
+}
+.header_bx .logo{
+    text-decoration: none;
+    margin-left: 25px;
+    color: #000000;
+    font-size: 25px;
+    border: solid 2px;
+    border-radius: 5px;
+}
+.header_bx .button{
+    text-decoration: none;
+    color: #000000;
+}
+.header_bx .button:hover{
+    color: #fff;
+    background-color: #33332D;
+}
+.header_bx .logo:hover{
+    color: #fff;
+    background-color: #33332D;
+}
+.header_bx span{
+    color: rgb(110, 110, 110);
+}
+.header_bx span:hover{
+    color: #fff;
+    background-color: #33332D;
+}
+#arrow{
+    color: #000000;
+    font-size: 25px;
+}
+header .header_bx .forward{
+    margin: auto;
+}
+#arrow-right-up{
+    color: #000000;
+    font-size: 25px;
+    float: right;
+}
+.overview #link{
+    text-decoration: none;
+    color: #0a75f0;
+}
+section .overview{
+    width: 80%;
+    height: 390vh;
+    overflow: hidden;
+    margin: auto;
+}
+section .overview #note{
+    font-weight: 600;
+    color: #bdc1c2;
+}
+#arrow-right{
+    color: #000000;
+    font-size: 25px;
+    float: right;
+}
+body.reading-mode {
+    background-color: #fdc28b;
+}
+body.dark-mode{
+    background-color: #000000;
+    color: #ffffff;
+}
+.eye-icon {
+    cursor: pointer;
+    font-size: 24px; 
+    color: #000000; 
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.code-container {
+    background-color: #1e2127;
+    border: 1px solid #1e2127;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+section .code-container .code #id-js{
+    color: #747474;
+}
+.code {
+    overflow-wrap: break-word;
+    font-family: monospace;
+    white-space: pre;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000000;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #000000;
+    text-align: left;
+}
+
+th {
+    color: #fff;
+    background-color: #1e2127;
+}
+.column1 {
+    background-color: #1e2127;
+    width: 25%;
+}
+
+.column2 {
+    width: 75%;
+}
+body.eye-icon table{
+    border: 1px solid #000000;
+}
+body.eye-icon table th, td {
+    border: 1px solid #000000;
+}
+
+
+/* media query wala section aagya guyz :) */
+@media screen and (max-width:1180px) {
+    section .overview{
+        height: 410vh;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    section .overview{
+        height: 440vh;
+    }
+}
+@media screen and (max-width:780px) {
+    section .overview{
+        height: 500vh;
+    }
+}
+@media screen and (max-width:630px) {
+    section .overview{
+        height: 520vh;
+    }
+}
+@media screen and (max-width:580px) {
+    section .overview{
+        height: 580vh;
+    }
+    .code-container .code {
+        white-space: normal;
+    }
+}
+@media screen and (max-width:480px) {
+    section .overview{
+        height: 620vh;
+    }
+}
+@media screen and (max-width:440px) {
+    section .overview{
+        height: 650vh;
+    }
+}
+@media screen and (max-width:390px) {
+    section .overview{
+        height: 700vh;
+    }
+}
+@media screen and (max-width:375px) {
+    section .overview{
+        height: 700vh;
+    }
+}
+@media screen and (max-width:360px) {
+    section .overview{
+        height: 870vh;
+    }
+}
+@media screen and (max-width:320px) {
+    section .overview{
+        height: 920vh;
+}
+}

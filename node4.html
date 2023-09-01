@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node Page 3</title>
+    <link rel="stylesheet" href="node4.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <script src="node.js" defer></script>
+</head>
+<body>
+    <header id="header">
+        <div class="header_bx">
+        <div class="back">
+        <a href="node3.html"><i class="bi bi-arrow-left-circle-fill" id="arrow"></i></a>
+        </div>
+        <div class="logo">
+            <h4><a href="index.html" class="button">{nix<span>on.}</span></a></h4>
+        </div>
+        <i id="readingModeToggle" class="bi bi-thermometer-sun eye-icon"></i>
+        <div class="forward">
+            <a href="index.html"><i class="bi bi-arrow-right-circle-fill" id="arrow-right-up"></i></a>
+        </div>
+    </div>
+    </header><br>
+
+    <section>
+        <div class="overview">
+
+        <h3>Node.js</h3><br>
+        <h3>npm</h3>
+        <p>npm (node package manager) it manage the package of node.js</p><p>Npm is known as the world’s largest software registry. Open-source developers all over the world use npm to publish and share their source code.</p><br>
+        <p>Npm consists of three components:</p>
+        <p>1. The website allows you to find third-party packages, set up profiles, and manage your packages.</p>
+        <p>2. The command-line interface or npm CLI that runs from a terminal to allow you to interact with npm.</p>
+        <p>3. The registry is a large public database of JavaScript code.</p><br>
+        <p>To find the npm CLI on your computer, you run the npm command from a terminal:</p>
+
+    <div class="code-container">
+            <pre class="code">
+npm
+</pre>
+        </div><br>
+        <p>For example, the following command will display the current npm version on your system:</p>
+
+<div class="code-container"><pre class="code">
+npm -v
+</pre></div><br>
+
+        <h3>What can you do with npm?</h3>
+        <p>&#x2022; npm allows you to install a new package from the registry. This is what you will do most of the time with npm.</p>
+        <p>&#x2022; On top of this, npm allows you to discover and publish your new node packages.</p><br><hr><br>
+
+        <p>Now that you have Node.js installed, use terminal to make sure that everything is installed correctly. Open terminal and type the following command at the prompt: node -v.</p><br>
+        <p>The output of this command should show you the version of Node.js you installed. Similarly, you
+            can check the version of npm that you installed by running the command npm -v at the
+            command prompt.</p><br>
+
+        <p>If your terminal responds with an error or with nothing, it’s possible that your installation of
+            Node.js was unsuccessful. In the case of an error, try copying and pasting that error into a
+            search engine to look for common solutions. Otherwise, you can check out in ChatGPT.</p><br>
+
+        <p>Now that you have Node.js installed and your terminal running, you need somewhere to write
+your code.</p><br>
+
+        <p>If you ever forget where you installed Node.js or npm, you can open a command window and
+            type "which node" or "which npm" at the prompt to see the corresponding location. From a Windows
+            command-line prompt, use where in place of which.</p><br><hr><br>
+
+        <h3>package.json</h3>
+        <p>In general, every npm project has a file called package.json located in the root directory. The package.json is a plain text file that contains important information that npm uses to identify the project and handle dependencies.</p><br>
+        <p>To create the package.json file, you go to the root directory of the project and execute the following command:</p>
+
+        <div class="code-container"><pre class="code">
+npm init
+</pre></div><br>
+        
+        <p>When you run the npm init command, it will prompt you for the project information including:</p>
+        <p>&#x2022; Package name</p>
+        <p>&#x2022; Version</p>
+        <p>&#x2022; Test command</p>
+        <p>&#x2022; Git repository</p>
+        <p>&#x2022; Keywords</p>
+        <p>&#x2022; Author</p>
+        <p>&#x2022; License</p><br>
+        <p>If you hit Return or Enter, it will accept the default values and move on to the next prompt.</p><br>
+        <h4>Note: It create file named package.JSON that store all the things or we can say all the information related to project.</h4>
+        <h4>Package: Imagine someone already written a code in Js and i want to use it so we can install various package for it.</h4><br>
+
+        <p>If you want to use default options, you use the following command:</p>
+        <div class="code-container"><pre class="code">
+npm init --yes
+</pre></div><br>
+        <p>Later, you can change the default values in the package.json.</p><br>
+
+        <p></p>
+
+        <h3>Install a new package</h3>
+        <p>To install a new package, you use the following npm install command:</p>
+        <div class="code-container"><pre class="code">
+npm install < package_name >
+</pre></div><br>
+
+        <p>In this command, you place the package name after the npm install keywords.</p><br>
+        <p>To find packages, you go to the npm website and search for them.</p><br>
+        <p>For example, if you want to install the express package, you can run the following command:</p>
+        <div class="code-container"><pre class="code">
+npm install express
+</pre></div><br>
+
+        <p>Note that express is a fast web framework for Node.</p><br>
+        <p>Once the installation is completed, you will see a new directory called /node_modules created under the root of the project. All the new modules that you install will be placed in this directory.</p><br>
+        <p>If you open the package.json file in the root of the project, you will also find that the dependencies section is updated, which includes the express package like this:</p>
+        <div class="code-container"><pre class="code">
+"dependencies": {
+    "express": "^4.17.1"
+}
+</pre></div><br>
+        <p>In general, any new package that you install will be listed in the dependencies section. In this example, the dependencies include the express package with version 4.17.1. Notice that Npm follows the semantic versioning specification.</p><br>
+        <p>To save some typing, you can use a shorter version of the npm install command:</p>
+        <div class="code-container"><pre class="code">
+npm i < package_name >
+</pre></div><br>
+        <p>In this command, i stands for install.</p><br>
+
+        <h3>Install a package globally on your system</h3>
+        <p>To install a package globally on your system, you use the following command:</p>
+        <div class="code-container"><pre class="code">
+npm install < package_name > --global
+</pre></div><br>
+        <p>Generally, you install a package globally when you want to use it in your command line or shell.</p><br>
+        <p>If you want a package that you will include in your application, you should install it locally.</p><br>
+
+        <h3>Summary</h3>
+        <p>&#x2022; Npm is the package manager for the Node JavaScript platform.</p>
+        <p>&#x2022; Use npm install <package_name> to install a new package.</p>
+        <p>&#x2022; Use npm install <package_name> --save-dev to install a new package as a development dependency.</p>
+        <p>&#x2022; Use npm install <package_name> -g to install a package globally</p>
+        <p>&#x2022; npm uses the semantic versioning specification with the format major.minor.patch.</p>
+
+    
+        <a href="index.html"><i class="bi bi-arrow-right-circle-fill" id="arrow-right"></i></a>
+        </div>
+    </section>
+</body>
+</html>
