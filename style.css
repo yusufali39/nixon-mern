@@ -245,7 +245,7 @@ footer ul li {
 
 footer ul li a {
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
     color: rgb(130, 130, 130);
     transition: .3s linear;
 }
@@ -256,6 +256,9 @@ footer ul li a:hover {
     color: #fff;
 }
 
+footer p{
+    font-size: 10px;
+}
 /* media queries */
 
 @media screen and (max-width:1180px) {
@@ -402,11 +405,11 @@ header .header_bx nav .menu_hum ul {
     position: absolute;
     top: -300px;
     right: 200%;
-    width: 200px;
+    width: 160px;
     background: #2d3133;
     border-radius: 10px;
     z-index: 9999999999999;
-    transition: 0.5s linear;
+    transition: 0.2s linear;
 }
 
 header .header_bx nav .menu_hum ul li a:hover{
