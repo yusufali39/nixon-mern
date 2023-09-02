@@ -69,7 +69,7 @@ header .header_bx .forward{
 }
 section .overview{
     width: 80%;
-    height: 390vh;
+    height: auto;
     overflow: hidden;
     margin: auto;
 }
@@ -149,28 +149,28 @@ body.eye-icon table th, td {
 /* media query wala section aagya guyz :) */
 @media screen and (max-width:1180px) {
     section .overview{
-        height: 410vh;
+        height: auto;
     }
 }
 
 @media screen and (max-width:1000px) {
     section .overview{
-        height: 440vh;
+        height: auto;
     }
 }
 @media screen and (max-width:780px) {
     section .overview{
-        height: 500vh;
+        height: auto;
     }
 }
 @media screen and (max-width:630px) {
     section .overview{
-        height: 520vh;
+        height: auto;
     }
 }
 @media screen and (max-width:580px) {
     section .overview{
-        height: 580vh;
+        height: auto;
     }
     .code-container .code {
         white-space: normal;
@@ -178,31 +178,31 @@ body.eye-icon table th, td {
 }
 @media screen and (max-width:480px) {
     section .overview{
-        height: 620vh;
+        height: auto;
     }
 }
 @media screen and (max-width:440px) {
     section .overview{
-        height: 650vh;
+        height: auto;
     }
 }
 @media screen and (max-width:390px) {
     section .overview{
-        height: 700vh;
+        height: auto;
     }
 }
 @media screen and (max-width:375px) {
     section .overview{
-        height: 700vh;
+        height: auto;
     }
 }
 @media screen and (max-width:360px) {
     section .overview{
-        height: 870vh;
+        height: auto;
     }
 }
 @media screen and (max-width:320px) {
     section .overview{
-        height: 920vh;
+        height: auto;
 }
 }
