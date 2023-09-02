@@ -154,7 +154,7 @@ nav span:hover{
 
 
 section .overview{
-    height: 100vh;
+    height: auto;
     overflow: hidden;
     margin: auto;
     width: 80%;
@@ -270,7 +270,7 @@ footer ul li a:hover {
         color: 33332D;
     }
     section .overview{
-        height: 120vh;
+        height: auto;
     }
 }
 @media screen and (max-width:1024px) {
@@ -285,7 +285,7 @@ footer ul li a:hover {
         color: 33332D;
     }
     section .overview{
-        height: 135vh;
+        height: auto;
     }
 }
 
@@ -306,7 +306,7 @@ footer ul li a:hover {
         color: 33332D;
     }
     section .overview{
-        height: 160vh;
+        height: auto;
     }
 }
 
@@ -340,7 +340,7 @@ footer ul li a:hover {
         float: right;
     }
     section .overview{
-        height: 160vh;
+        height: auto;
     }
     section .overview h1{
         font-size: 23px;
@@ -379,7 +379,7 @@ footer ul li a:hover {
         float: left;
     }
     section .overview{
-        height: 170vh;
+        height: auto;
     }
     section .overview h1{
         font-size: 23px;
@@ -426,7 +426,7 @@ header .header_bx nav .menu_hum ul li a{
     font-size: 18px;
 }
 section .overview{
-    height: 185vh;
+    height: auto;
 }
 }
 
@@ -463,7 +463,7 @@ section .overview{
         float: right;
     }
     section .overview{
-        height: 230vh;
+        height: auto;
     }
     section .overview h1{
         font-size: 23px;
@@ -515,7 +515,7 @@ section .overview{
         float: left;
     }
     section .overview{
-        height: 270vh;
+        height: auto;
     }
     section .overview h1{
         font-size: 23px;
@@ -558,7 +558,7 @@ section .overview{
         float: left;
     }
     section .overview{
-        height: 260vh;
+        height: auto;
 
     }
     section .overview h1{
@@ -599,7 +599,7 @@ section .overview{
         float: left;
     }
     section .overview{
-        height: 305vh;
+        height: auto;
 
     }
     section .overview h1{

@@ -64,7 +64,7 @@ header .header_bx .forward{
 }
 section .overview{
     width: 80%;
-    height: 87vh;
+    height: auto;
     overflow: hidden;
     margin: auto;
 }
@@ -95,31 +95,31 @@ body.dark-mode{
 
 @media screen and (max-width:1180px) {
     section .overview{
-        height: 110vh;
+        height: auto;
     }
 }
 @media screen and (max-width:780px) {
     section .overview{
-        height: 130vh;
+        height: auto;
     }
 }
 @media screen and (max-width:580px) {
     section .overview{
-        height: 150vh;
+        height: auto;
     }
 }
 @media screen and (max-width:440px) {
     section .overview{
-        height: 170vh;
+        height: auto;
     }
 }
 @media screen and (max-width:375px) {
     section .overview{
-        height: 200vh;
+        height: auto;
     }
 }
 @media screen and (max-width:360px) {
     section .overview{
-        height: 230vh;
+        height: auto;
 }
 }
