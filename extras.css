@@ -64,13 +64,23 @@ header .header_bx .forward{
     float: right;
 }
 
-.content{
-    text-align: center;
-    padding: 9px;
-    margin: 0px auto;
-    border: 1px solid rgb(9, 106, 166);
-    border-radius: 10px 10px 0px 0px;
-    width: 50%;
+.vid-class{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 100wh;
+}
+
+#myVideo {
+    border-radius: 10px;
+    margin: 10px 25px;
+    width: 100%; 
+    max-width: 100%; 
+    height: auto; 
 }
 
 .container {
@@ -79,16 +89,9 @@ header .header_bx .forward{
     margin: 50px auto;
     max-width: 1000px;
 }
-#modes{
-    text-align: center;
-    background-color: rgb(9, 106, 166);
-    color: white;
-    width: 50%;
-    margin: 0px auto;
-    padding: 10px;
-    border-radius: 0px 0px 10px 10px;
-}
+
 .level {
+    height: 35wh;
     background-color: #1F2833;
     border: 1px solid #ddd;
     color: white;
@@ -122,3 +125,34 @@ header .header_bx .forward{
     filter: brightness(0.9);
 }
 
+@media screen and (max-width:900px){
+    .level h2 {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:700px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .vid-class{
+        margin-left: 150wh;
+        margin-right: 150wh;
+    }
+    .level{
+        width: 90%;
+        margin: 10px auto;
+    }
+}
+@media screen and (max-width:500px){
+    .content{
+        width: 90%;
+    }
+    .vid-class{
+        margin: 3vh;
+    }
+    .level{
+        width: 90wh;
+        padding: 0px auto;
+    }
+}
