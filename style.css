@@ -538,17 +538,15 @@ section .overview{
         margin-left: 10px;
     }
     .content-image{
-        opacity: 10%;
-        width: 22vh; 
-
+        display: none;
     }
     .content h1{
-        width: 120%;
+        width: 100%;
         font-size: 35px;
         color: 33332D;
     }
     .content h2{
-        width: 120%;
+        width: 100%;
         font-size: 20px;
         color: 33332D;
     }
