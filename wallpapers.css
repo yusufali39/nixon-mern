@@ -130,18 +130,14 @@ ul {
   font-size: 18px;
   font-weight: 700;
   padding: 5px 7px;
-  border: 2px solid #973B6B;
+    background: #973B6B;
+  color: #EAB4E4;
   margin-top: 15px;
   border-radius: 5px;
   cursor: pointer;
-  background: transparent;
   color: rgb(0, 0, 0);
 }
 
-.anime .btn:hover {
-  background: #973B6B;
-  color: #EAB4E4;
-}
 .footer-image{
   display: none;
   z-index: 9999999999999999999999999999999999;
