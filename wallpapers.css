@@ -99,21 +99,30 @@ ul {
 }
 
 .home-cards img {
+  border-radius: 15px;
   width: 100%;
   margin-bottom: 5px;
 }
 
 .home-cards a {
+  padding: 2px 5px;
+  font-size: 14px;
+  border: 1px solid;
+  border-radius: 5px;
   display: inline-block;
-  color: #0067b8;
+  color: #433123;
   text-transform: uppercase;
   font-weight: bold;
+}
+.home-cards a:hover{
+  background-color: #433123;
+  color: #DDD4CD;
 }
 /* anime */
 .anime {
   width: 100%;
   height: 350px;
-  background: url('anime.png') no-repeat center center/cover;
+  background: url('Purple\ Pink\ Gradient\ Man\ 3D\ Avatar\ \(940\ ×\ 340\ px\)\ \(940\ ×\ 440\ px\)\ \(1\).png') no-repeat center center/cover;
   margin-bottom: 20px;
 }
 
@@ -130,12 +139,12 @@ ul {
   font-size: 18px;
   font-weight: 700;
   padding: 5px 7px;
-    background: #973B6B;
-  color: #EAB4E4;
+  border: 2px solid #973B6B;
   margin-top: 15px;
   border-radius: 5px;
   cursor: pointer;
-  color: rgb(0, 0, 0);
+  background-color: #973B6B;
+  color: #EAB4E4;
 }
 
 .footer-image{
