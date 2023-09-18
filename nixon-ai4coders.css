@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(rgb(31, 31, 39) 0%, rgb(0, 0, 0) 100%);
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+  }
+
+  header{
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  .header_bx{
+    display: flex;
+    width: 90%;
+    margin-top: 20px;
+  }
+  .header_bx .logo{
+    padding: 0px 3px 0px 3px;
+    text-decoration: none;
+    margin-left: 25px;
+    color: #ffffff;
+    font-size: 25px;
+    border: solid 2px;
+    border-radius: 5px;
+  }
+  .header_bx .button{
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  #arrow{
+    color: #ffffff;
+    font-size: 25px;
+  }
+  header .header_bx .forward{
+    margin: auto;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+
+  
+  /* Showcase */
+  .showcase {
+    width: 100%;
+    height: 400px;
+    background: url('Black\ Minimalist\ 3d\ Metaverse\ Instagram\ Post\ \(940\ ×\ 440\ px\).png') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+  }
+  
+  /* Home cards */
+  .home-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 40px;
+  }
+  .home-cards .box1, .box2, .box3, .box4{
+    border-radius: 7px;
+    color: #a6a6a6;
+    height: auto;
+    text-align: center;  
+    padding: 10px;
+    border: 3px solid #a6a6a6;
+  }
+  .home-cards img {
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .home-cards h3 {
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  
+  .home-cards #details{
+    color: rgb(108,194,248);
+    padding: 10px;
+    font-weight: 700;
+  }
+  
+
+  .home-cards a {
+    border-radius: 4px;
+    padding: 5px 20px;
+    background-color: rgb(108,194,248);
+    display: inline-block;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .home-cards a:hover{
+    background-color: rgba(9, 145, 236, 0.5);
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Xbox */
+  .xbox {
+    width: 100%;
+    height: 350px;
+    background: url('Purple\ Pink\ Gradient\ Man\ 3D\ Avatar\ \(940\ ×\ 340\ px\)\ \(940\ ×\ 440\ px\).png') no-repeat center center/cover;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    color: #ffffff;
+  margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+  padding: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  }
+  
+  footer h6 {
+  font-size: 15px;
+  color: #ffffff;
+  }
+  
+  footer .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  }
+  
+  footer .social a {
+  color: rgb(255, 255, 255);
+  margin: 0px 5px;
+  transition: .3s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  footer .social a .bi {
+  padding: 7px 10px;
+  background: rgba(9, 145, 236, 0.5);
+  border-radius: 50%;
+  font-size: 14px;
+  }
+  
+  footer h4 {
+  margin-top: 5px;
+  }
+  
+  footer ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  }
+  
+  footer ul li {
+  margin-right: 10px;
+  }
+  
+  footer ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  transition: .3s linear;
+  }
+  
+  footer ul li a:hover {
+  border-radius: 2px;
+  background: rgba(9, 145, 236, 0.5);
+  color: #ffffff;
+  }
+  
+  footer p{
+  font-size: 10px;
+  }
+
+  @media(max-width: 900px) {
+    .showcase2 {
+      width: 100%;
+      height: 300px;
+    }
+  }
+  @media(max-width: 750px) {
+    .home-cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .showcase {
+      width: 100%;
+      height: 300px;
+    }
+
+    .showcase2 {
+      width: 100%;
+      height: 27vh;
+    }
+
+    .xbox .content p {
+      display: none;
+    }
+  
+    .xbox .content h2 {
+      margin-bottom: 20px;
+    }
+
+  }
+  
+  @media(max-width: 500px) {
+    .home-cards {
+      grid-template-columns: 1fr;
+    }
+    .showcase {
+    width: 100%;
+    height: 250px;
+  }
+  .showcase2 {
+    width: 100%;
+    height: 19vh;
+  }
+  .xbox {
+    height: 200px;
+    font-size: 10px;
+  }
+
+}
+@media(max-width:400px){
+  .xbox {
+    height: 180px;
+    font-size: 10px;
+  }
+  .xbox .btn{
+    padding: 2px 5px;
+  }
+  .xbox .content h2{
+    width: 75%;
+  }
+}
